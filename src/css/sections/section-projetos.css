@@ -1,0 +1,80 @@
+.projetos .container-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.projetos .container-projetos .projeto {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#00000000, #000000 90%);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto p {
+    height: 0px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto .github-pages {
+    color: var(--cor-primaria);
+}
+
+.projetos .container-projetos .projeto a img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.projetos .container-projetos .projeto:hover img {
+    opacity: 0.5;
+}
+
+.projetos .container-projetos .projeto:hover p:nth-child(2) {
+    opacity: 1;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.projetos .container-projetos .projeto:hover .github-pages {
+    opacity: 1;
+    height: 30px;
+    font-weight: 500;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.sobre-mim .imagem-sobre-mim {
+    max-width: 40%;
+    padding: 0 1.5rem;
+}
+
+.sobre-mim .imagem-sobre-mim .img-box {
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sobre-mim .imagem-sobre-mim img {
+    border-radius: 5px;
+}
+
+.sobre-mim .informacoes-sobre-mim {
+    max-width: 50%;
+    padding: 0 2.5rem;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes {
+    margin-top: 5rem;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,47 @@
+.contato-card {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    align-items: center;
+    gap: 9rem;
+    background-color: var(--cor-fundo-cinza-claro);
+    padding: 3.2rem;
+    border-radius: 1rem;
+}
+
+.contato-card .contato-conteudo .card-icone i {
+    font-size: 6rem;
+}
+
+.contato-card .contato-conteudo .contato-title {
+    margin: 3rem 0;
+    font-weight: 700;
+    font-size: var(--fonte-gigante);
+}
+
+.input-field {
+    background-color: var(--cor-branco-cinza);
+    color: #000;
+    font-size: var(--fonte-normal);
+    padding: 1.4rem 1.8rem;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 2rem;
+    border: 2px solid #000;
+    width: 80%;
+}
+
+.contato-card .contato-form .wrapper textarea {
+    width: 80%;
+    height: 10rem;
+    font-size: var(--fonte-normal);
+    background-color: var(--cor-branco-cinza);
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding-left: 1rem;
+    padding-top: 8px;
+    resize: none;
+    margin-bottom: 1rem;
+    outline: none;
+}
+

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/title.png" type="image/x-icon">
+    <title>Portfólio - Leandro Mathias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/sections/header.css">
+    <link rel="stylesheet" href="./src/css/sections/section-home.css">
+    <link rel="stylesheet" href="./src/css/sections/section-sobre.css">
+    <link rel="stylesheet" href="./src/css/sections/section-habilidades.css">
+    <link rel="stylesheet" href="./src/css/sections/section-projetos.css">
+    <link rel="stylesheet" href="./src/css/sections/section-contato.css">
+    <link rel="stylesheet" href="./src/css/sections/footer.css">
+    <link rel="stylesheet" href="./src/css/globais.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-no-centro">
+                <a href="#">
+                    <h1 class="logo">LM</h1>
+                </a>
+                <nav class="nav-bar">
+                    <div class="nav-list">
+                        <ul>
+                            <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                            <li><a href="#habilidades">HABILIDADES</a></li>
+                            <li><a href="#projetos">PROJETOS</a></li>
+                            <li><a href="#contato">CONTATO</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu-icon">
+                        <button onclick="menuAparecer()"><img class="icon" src="./src/images/menu_white_36dp.svg" alt="Imagem Menu Hamburguer"></button>
+                    </div>
+                </nav>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="home" id="inicio">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-no-centro">
+                <div class="texto-home">
+                    <h1>Leandro Mathias</h1>
+                    <h2>Desenvolvedor Frontend</h2>
+                    <ul class="redes-sociais row">
+                        <li>
+                            <a href="https://www.linkedin.com/in/leandro-mathias-lm/" class="outer-shadow"
+                                target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/send?phone={5569984217090}&text=Olá Mathias"
+                                class="outer-shadow" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/leandro-mathiask" class="outer-shadow" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img src="./src/images/foto-perfil.png" alt="foto de perfil" class="outer-shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img src="./src/images/foto-sobre-mim.png" alt="foto do perfil" class="outer-shadow">
+                    </div>
+                </div>
+                <div class="informacoes-sobre-mim">
+                    <p>
+                        <strong>Olá! Me chamo Leandro Mathias conhecido por Mathias e sou um desenvolvedor frontend em
+                            formação</strong>
+                        Gosto MUITO da área de tecnologia, tenho certeza que posso contribuir em qualquer time com as
+                        minhas habilidades.
+                    </p>
+
+                    <p>Estou sempre me desafiando com novos projetos e participando de comunidades de programação para
+                        buscar feedback de outros desenvolvedores. Além de tentar ajudar essas pessoas com o que eu já
+                        aprendi.😄</p>
+
+                    <p>Ah, gosto de jogos, filmes, séries, animes e outras nerdices.</p>
+
+                    <div class="botoes">
+                        <a href="./src/arquivos/LeandroMathiasdaSilva_DevWebFront-end.pdf" class="botao"
+                            target="_blank">Ver curriculo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades section" id="habilidades">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-habilidades row">
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-javascript-plain"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Tenho uma boa base do JS, entendo bem conceitos como callbacks, promisses, async/await, consumo de
+                    APIs, dentre outro.</p>
+            </div>
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-html5-plain-wordmark"></i>
+                </div>
+                <h3>HTML5</h3>
+                <p>Entendo bem sobre o HTML conceitos como estruturação de documentos web, formulários, elementos
+                    multimídia, acessibilidade e semântica.</p>
+            </div>
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-css3-plain-wordmark"></i>
+                </div>
+                <h3>CSS3</h3>
+                <p>Tenho uma boa base no CSS, design responsivo, flexbox, grid, animações e transições, variaveis,
+                    dentro outros</p>
+            </div>
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-github-original"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>Tenho conhecimento em GitHub, versionamento de código, repositórios remotos, pull requests, GitHub
+                    Pages, dentre outros</p>
+            </div>
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-git-plain"></i>
+                </div>
+                <h3>Git</h3>
+                <p>Tenho conhecimento de Git, Commit e Logs, controle de versão, tags e releases, dentre outros</p>
+            </div>
+        </div>
+    </section>
+    <section class="projetos section" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus Projetos</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-projetos container">
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-xdevs/" target="_blank">
+                    <img src="./src/images/imagem-x-devs-fundo.png" alt="Projeto 01">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto X-Devs</h3>
+                        <p>Criação de uma lista de cards com seleção de personagens e suas breves histórias, foi
+                            utilizado HTML5, CSS3 e JavaScript.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-pokedex/" target="_blank">
+                    <img src="./src/images/imagem-pokedex-fundo.png" alt="Projeto 02">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto Pokedex</h3>
+                        <p>Criação de um card dos pokémons mostrando seus status e habilidades de cada um, foi utilizado
+                            HTML5, CSS3 e JavaScript.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-nft-card/" target="_blank">
+                    <img src="./src/images/imagem-nft-fundo.png" alt="Projeto 03">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto NFT Card</h3>
+                        <p>Pequeno projeto de um card NFT com icones responsivos, foi utilizado HTML5 e CSS3.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-huddle-base/" target="_blank">
+                    <img src="./src/images/imagem-huddle-fundo.png" alt="Projeto 04">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto Huddle</h3>
+                        <p>Projeto do Huddle feito com responsividade de um desafio do frontendMentor, foi utilizado
+                            HTML5 e CSS3.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-dead-by-dayligth/" target="_blank">
+                    <img src="./src/images/imagem-dbd-fundo.png" alt="Projeto 05">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto Dead By Dayligth</h3>
+                        <p>Projeto com personagens do game Dead by Dayligth, todo responsivo foi utilizado
+                            HTML5, CSS3 e JavaScript.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="https://leandro-mathiask.github.io/projeto-ecommerce/" target="_blank">
+                    <img src="./src/images/ecommerce.png" alt="Projeto 06">
+
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">Projeto Ecommerce</h3>
+                        <p>Projeto de um ecommerce com coleções de um determinado produto, foi utilizado HTML5, CSS3 e JavaScript.</p>
+                        <p class="github-pages">🔗Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contatos section" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Contato</h2>
+                </div>
+            </div>
+
+            <div class="contato-card">
+                <div class="contato-conteudo">
+                    <div class="card-icone">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <h2 class="contato-title">Entre em contato comigo!</h2>
+                    <p class="contato-texto">Em caso de dúvidas, sinta-se à vontade para me contatar através deste
+                        formulário, e assim que possível, retornarei seu contato.</p>
+                </div>
+                <form action="#" method="POST" class="contato-form" id="contatoForm">
+                    <div class="campo">
+                        <div class="input-wrapper campo">
+                            <label for="">
+                                <input type="text" name="name" placeholder="Nome *" class="input-field" required>
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="email" name="email" placeholder="Email *" class="input-field" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="campo">
+                            <label for="">
+                                <textarea name="mensage" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"
+                                    required></textarea>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="botao">Enviar email</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="sociais">
+        <div class="container-footer container">
+            <h2>Leandro Mathias</h2>
+            <p>Para mais informaçoes</p>
+            <ul class="redes-sociais row">
+                <li>
+                    <a href="https://www.linkedin.com/in/leandro-mathias-lm/" class="outer-shadow" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://web.whatsapp.com/send?phone={5569984217090}&text=Olá Mathias" class="outer-shadow"
+                        target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/leandro-mathiask" class="outer-shadow" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <p>© 2024 Leandro Mathias</p>
+            <a href="#inicio"><i class="fas fa-home"></i></a>
+        </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
