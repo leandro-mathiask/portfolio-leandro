@@ -9,6 +9,18 @@ function menuAparecer() {
     }
 };
 
+function menuAparecerEnglish() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon-en').src = "../src/images/menu_white_36dp.svg";
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon-en').src = "../src/images/close_white_36dp.svg";
+    }
+};
+
+
 
 function saveScrollPosition() {
     const scrollPosition = window.scrollY;
