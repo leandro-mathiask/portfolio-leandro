@@ -8,3 +8,29 @@ function menuAparecer() {
         document.querySelector('.icon').src = "./src/images/close_white_36dp.svg";
     }
 };
+
+
+function saveScrollPosition() {
+    const scrollPosition = window.scrollY;
+    localStorage.setItem('scrollPosition', scrollPosition);
+  }
+  
+  function restoreScrollPosition() {
+    const scrollPosition = localStorage.getItem('scrollPosition');
+    if (scrollPosition !== null) {
+        window.scrollTo({
+            top: scrollPosition,
+            behavior: 'smooth' // Adiciona a transição suave
+        });
+        localStorage.removeItem('scrollPosition');
+    }
+  }
+  
+  // Adiciona um event listener para salvar a posição do scroll ao clicar no link
+  document.addEventListener('DOMContentLoaded', function () {
+    const languageBtn = document.querySelector('.language-btn');
+    if (languageBtn) {
+        languageBtn.addEventListener('click', saveScrollPosition);
+    }
+    restoreScrollPosition();
+  });

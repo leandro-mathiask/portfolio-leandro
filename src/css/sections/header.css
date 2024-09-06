@@ -7,6 +7,7 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
@@ -23,6 +24,16 @@
 .header .logo:hover {
     color: var(--cor-primaria);
     border: 2px solid var(--cor-primaria);
+}
+
+.header .logo-pt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo-pt .language-btn {
+    padding-left: 10px;
 }
 
 .header nav ul {
